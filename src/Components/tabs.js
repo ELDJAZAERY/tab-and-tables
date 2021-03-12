@@ -93,8 +93,6 @@ export default function Forcasting(props = {}) {
         </Tabs>
       </AppBar>
       {Object.keys(tabs).map((key, index) => {
-        console.log(" key + index ", key, index);
-        console.log("  list ", )
         return (
           <TabPanel value={activeTabIndex} index={index}>
             {/* Table Data  */}
